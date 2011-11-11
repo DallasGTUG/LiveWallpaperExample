@@ -1,0 +1,25 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+        android:title="@string/settings"
+        android:key="cube2wallpaper_settings">
+
+    <ListPreference
+            android:key="preference_circle_color"
+            android:title="@string/circle_color"
+            android:summary="@string/circle_color_summary"
+            android:entries="@array/color_names"
+            android:entryValues="@array/color_values" />
+
+	<ListPreference
+            android:key="preference_circle_radius"
+            android:title="@string/circle_radius"
+            android:summary="@string/circle_radius_summary"
+            android:entries="@array/circle_radius_names"
+            android:entryValues="@array/circle_radius_values" />
+            
+    <ListPreference
+            android:key="preference_background_color"
+            android:title="@string/background_color"
+            android:summary="@string/background_color_summary"
+            android:entries="@array/color_names"
+            android:entryValues="@array/color_values" />
+</PreferenceScreen>

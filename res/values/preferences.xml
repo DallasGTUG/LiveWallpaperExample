@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<string-array name="color_names">
+        <item>White</item>
+        <item>Black</item>
+        <item>Blue</item>
+        <item>Green</item>
+        <item>Magenta</item>
+        <item>Red</item>
+    </string-array>
+    <string-array name="color_values">
+        <item>-1</item>
+        <item>-16777216</item>
+        <item>-16776961</item>
+        <item>-16711936</item>
+        <item>-65281</item>
+        <item>-65536</item>
+    </string-array>
+    
+    <string-array name="circle_radius_names">
+    	<item>Small</item>
+    	<item>Medium</item>
+    	<item>Large</item>
+    </string-array>
+    <string-array name="circle_radius_values">
+        <item>20</item>
+        <item>50</item>
+        <item>100</item>
+    </string-array>
+    
+</resources>
